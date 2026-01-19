@@ -24,3 +24,7 @@ Hematokytos ("blood cell") collects pipelines and utilities for gathering, integ
 - `geo_submission/` - Jupyter notebook for preparing data and metadata for GEO submission
 
 Each pipeline directory contains its own README with usage instructions.
+
+
+Earlier versions of this pipeline are available at [https://github.com/CooperStansbury/hematokytos](https://github.com/CooperStansbury/hematokytos)
+
