@@ -1,0 +1,4 @@
+python DEG.py --inpath /scratch/indikar_root/indikar1/shared_data/hematokytos/sample_1_adata.h5ad
+python DEG.py --inpath /scratch/indikar_root/indikar1/shared_data/hematokytos/sample_2_adata.h5ad
+python DEG.py --inpath /scratch/indikar_root/indikar1/shared_data/hematokytos/sample_3_adata.h5ad
+python DEG.py --inpath /scratch/indikar_root/indikar1/shared_data/hematokytos/sample_4_adata.h5ad

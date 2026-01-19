@@ -1,0 +1,5 @@
+  SE: "Skipping exon (SE) events"
+  SS: "Alternative 5' (A5) and 3' (A3) splice sites"
+  MX: "Mutually Exclusive (MX) exons"
+  RI: "Retained intron (RI)"
+  FL: "Alternative first (AF) and last (AL) exons"

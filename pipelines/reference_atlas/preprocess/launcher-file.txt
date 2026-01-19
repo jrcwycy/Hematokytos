@@ -1,0 +1,8 @@
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_1'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_2'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_3'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_4'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_5'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_6'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_7'
+python preprocess.py --output "/scratch/indikar_root/indikar1/shared_data/hematokytos/" --sample_name 'sample_8'
