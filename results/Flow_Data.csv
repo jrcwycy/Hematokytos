@@ -1,0 +1,17 @@
+Exp_file,Condition,N TF,CD34+ %,Recipe,Dose
+F2HS8,Control (no lenti Dox-),,0.07%,,
+F2HS8,Control (Dox-),5TF,0.12%,FH4a,
+C1 FH6 Inactive.fcs,Control (Dox-),5TF,0.45%,FH6,
+B6 FH3 Inactive.fcs,Control (Dox-),3TF,0.44%,FH3,
+F2HS8,FH4a,5TF,3.08%,FH4a,lo
+F2HS8,FH4a,5TF,2.41%,FH4a,lo
+F2HS8,FH4a,5TF,2.59%,FH4a,hi
+F2HS8,FH4a,5TF,1.86%,FH4a,hi
+C3 FH6 lo.fcs,FH6,5TF,3.97%,FH6,lo
+C2 FH6.fcs,FH6,5TF,1.71%,FH6,hi
+C5 FH7 lo.fcs,FH7,4TF,3.14%,FH7,lo
+C4 FH7.fcs,FH7,4TF,2.01%,FH7,hi
+C7 FH8 lo.fcs,FH8,4TF,2.85%,FH8,lo
+C6 FH8.fcs,FH8,4TF,2.42%,FH8,hi
+B8 FH3 lo.fcs,FH3,3TF,2.55%,FH3,lo
+B7 FH3.fcs,FH3,3TF,2.95%,FH3,hi
