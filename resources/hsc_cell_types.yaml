@@ -1,0 +1,204 @@
+hsc_and_progenitors:
+  - hematopoietic stem cell
+  - hematopoietic multipotent progenitor cell
+  - lymphoid lineage restricted progenitor cell
+  - early lymphoid progenitor
+  - common myeloid progenitor
+  - granulocyte monocyte progenitor cell
+  - megakaryocyte-erythroid progenitor cell
+  - erythroid progenitor cell
+  - megakaryocyte progenitor cell
+  - basophil mast progenitor cell
+  - common dendritic progenitor
+myeloid_cells:
+  - myeloid cell
+  - myelocyte
+  - promyelocyte (early and late)
+  - neutrophil
+  - eosinophil
+  - basophil
+  - classical monocyte
+  - non-classical monocyte
+  - intermediate monocyte
+  - inflammatory macrophage
+  - Kupffer cell (liver macrophage)
+  - microglial cell (brain macrophage)
+  - central nervous system macrophage
+  - kidney resident macrophage
+  - colon macrophage
+  - alveolar macrophage
+  - lung interstitial macrophage
+  - metallothionein-positive alveolar macrophage
+  - plasmacytoid dendritic cell
+  - conventional dendritic cell
+  - myeloid dendritic cell
+  - CD1c-positive myeloid dendritic cell
+  - CD141-positive myeloid dendritic cell
+  - Langerhans cell (skin dendritic cell)
+  - liver dendritic cell
+  - mast cell
+  - platelet
+  - erythrocyte
+  - reticulocyte
+  - erythroblast
+  - primitive red blood cell
+  - megakaryocyte
+lymphoid_cells:
+  - lymphocyte
+  - CD16-positive, CD56-dim natural killer cell, human
+  - CD16-negative, CD56-bright natural killer cell, human
+  - pre-natural killer cell
+  - immature natural killer cell
+  - CD56-positive, CD161-positive immature natural killer cell, human
+  - decidual natural killer cell, human
+  - alpha-beta T cell
+  - naive thymus-derived CD4-positive, alpha-beta T cell
+  - CD4-positive, alpha-beta memory T cell
+  - central memory CD4-positive, alpha-beta T cell
+  - effector memory CD4-positive, alpha-beta T cell
+  - CD4-positive, alpha-beta cytotoxic T cell
+  - T-helper 17 cell
+  - T follicular helper cell
+  - CD4-positive helper T cell
+  - activated CD4-positive, alpha-beta T cell
+  - activated CD4-positive, alpha-beta T cell, human
+  - effector CD4-positive, alpha-beta T cell
+  - lung resident memory CD4-positive, alpha-beta T cell
+  - Tc1 cell
+  - T-helper 1 cell
+  - CD4-positive, alpha-beta thymocyte
+  - naive thymus-derived CD8-positive, alpha-beta T cell
+  - CD8-positive, alpha-beta memory T cell
+  - central memory CD8-positive, alpha-beta T cell
+  - effector memory CD8-positive, alpha-beta T cell
+  - CD8-positive, alpha-beta cytotoxic T cell
+  - activated CD8-positive, alpha-beta T cell
+  - activated CD8-positive, alpha-beta T cell, human
+  - effector CD8-positive, alpha-beta T cell
+  - lung resident memory CD8-positive, alpha-beta T cell
+  - CD8-positive, alpha-beta cytokine secreting effector T cell
+  - CD8-positive, alpha-beta thymocyte
+  - gamma-delta T cell
+  - natural T-regulatory cell
+  - naive regulatory T cell
+  - memory regulatory T cell
+  - CD4-positive, CD25-positive, alpha-beta regulatory T cell
+  - T follicular regulatory cell
+  - mucosal invariant T cell
+  - exhausted T cell
+  - CD8-alpha-beta-positive, alpha-beta intraepithelial T cell
+  - CD8-alpha alpha positive, gamma-delta intraepithelial T cell
+  - CD8-alpha-alpha-positive, alpha-beta intraepithelial T cell
+  - thymocyte
+  - double negative thymocyte
+  - double-positive, alpha-beta thymocyte
+  - DN4 thymocyte
+  - DN3 thymocyte
+  - DN1 thymic pro-T cell
+  - naive B cell
+  - immature B cell
+  - mature B cell
+  - memory B cell
+  - unswitched memory B cell
+  - class switched memory B cell
+  - IgG memory B cell
+  - IgG-negative class switched memory B cell
+  - plasmablast
+  - plasma cell
+  - IgG plasma cell
+  - IgA plasma cell
+  - IgM plasma cell
+  - precursor B cell
+  - pro-B cell
+  - fraction A pre-pro B cell
+  - late pro-B cell
+  - early pro-B cell
+  - pre-B-I cell
+  - small pre-B-II cell
+  - large pre-B-II cell
+  - B-1a B cell
+  - B-1b B cell
+  - B-1 B cell
+  - B-2 B cell
+  - CD38-negative naive B cell
+  - transitional stage B cell
+  - follicular B cell
+  - tonsil germinal center B cell
+  - germinal center B cell
+  - centroblast
+  - centrocyte
+innate_lymphoid_cells:
+  - group 2 innate lymphoid cell
+  - group 3 innate lymphoid cell
+  - CD34-positive, CD56-positive, CD117-positive common innate lymphoid precursor, human
+  - immature innate lymphoid cell
+  - NKp46-positive innate lymphoid cell, human
+  - group 3 innate lymphoid cell, human
+  - NKp44-negative group 3 innate lymphoid cell, human
+  - NKp44-positive group 3 innate lymphoid cell, human
+  - ILC1, human
+  - group 2 innate lymphoid cell, human
+fibroblasts:
+  - fibroblast
+  - skin fibroblast
+  - fibroblast of connective tissue of prostate
+  - fibroblast of lung
+  - kidney interstitial fibroblast
+  - myofibroblast cell
+  - pulmonary interstitial fibroblast
+  - fibroblast of cardiac tissue
+  - fibroblast of connective tissue of glandular part of prostate
+  - fibroblast of connective tissue of nonglandular part of prostate
+  - bronchus fibroblast of lung
+  - lung perichondrial fibroblast
+  - mesothelial fibroblast
+  - alveolar type 2 fibroblast cell
+  - fibroblast of breast
+  - skeletal muscle fibroblast
+  - fibroblast of mammary gland
+  - embryonic fibroblast
+  - alveolar type 1 fibroblast cell
+  - fibro/adipogenic progenitor cell
+mesenchymal_cells:
+  - mesenchymal cell
+  - mesenchymal stem cell
+  - stromal cell (various locations)
+  - hepatic stellate cell
+  - vascular associated smooth muscle cell
+  - smooth muscle cell (various locations)
+  - pericyte
+  - lung pericyte
+  - blood vessel smooth muscle cell
+  - smooth muscle cell of the pulmonary artery
+  - mural cell
+  - mesothelial cell
+  - adipocyte
+endothelial_cells:
+  - endothelial cell
+  - vein endothelial cell
+  - capillary endothelial cell
+  - endothelial cell of artery
+  - cerebral cortex endothelial cell
+  - blood vessel endothelial cell
+  - endothelial cell of pericentral hepatic sinusoid
+  - endothelial cell of periportal hepatic sinusoid
+  - retinal blood vessel endothelial cell
+  - gut endothelial cell
+  - endothelial cell of hepatic sinusoid
+  - endothelial cell of lymphatic vessel
+  - endothelial cell of vascular tree
+  - endothelial cell of sinusoid
+  - endothelial tip cell
+  - cardiac endothelial cell
+  - pulmonary artery endothelial cell
+  - prostate gland microvascular endothelial cell
+  - glomerular capillary endothelial cell
+  - peritubular capillary endothelial cell
+  - glomerular endothelial cell
+  - kidney capillary endothelial cell
+  - brain vascular cell
+  - endothelial cell of placenta
+  - endothelial cell of uterus
+  - endothelial cell of venule
+  - lung microvascular endothelial cell
+  - dermis microvascular lymphatic vessel endothelial cell
