@@ -3,8 +3,12 @@
 Notebooks for analysis of isoform-level expression in control, reprogrammed, and bone marrow cells.
 
 ## Notebooks
-- `exon_plots.ipynb` - Exon structure for select transcripts
-- `iso_catalog_plots.ipynb` - Isoform switching and shared isoforms across gene sets
-- `iso_compare.ipynb` - Global isoform diversity and DEIs
-- `plotting_isos.ipynb` - Plotting code for transcript proportions and z-scored expression
-- `make_AS_table.ipynb` - Gather alternative splicing event table from Suppa
+
+- `make_AS_table.ipynb` – Gather alternative splicing event table from SUPPA
+
+
+- `iso_compare.ipynb` – Global isoform diversity and DEIs (Figures 5A-5C, 5F)
+- `iso_catalog_plots.ipynb` – Isoform switching and shared isoforms across gene sets (Figure 5D)
+- `plotting_isos.ipynb` – Plotting code for transcript proportions and z-scored expression (Figures 5E, 5G)
+- `exon_plots.ipynb` – Plotting code for exon structure (Figure 5G)
+
