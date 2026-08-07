@@ -5,9 +5,10 @@ Hematokytos ("blood cell") collects pipelines and utilities for gathering, integ
 ## Repository Sturcture
 
 - `pipelines/` – Collection of workflow scripts
-  - `cc_pipeline/` – Nextflow pipeline for fibroblast samples
+  - `fib_pipeline/` – Nextflow pipeline for fibroblast samples
   - `bm_pipeline/` – Nextflow pipeline for bone marrow data
-  - `hsc_pipeline/` – Nextflow pipeline for direct reprogramming experiments
+  - `hsc_pipeline/` – Nextflow pipeline for direct reprogramming experiments 
+  - `parse_longread_pipeline/` – Pipeline for timeseries reprogramming experiments
   - `velocyto_pipeline/` – Snakemake workflow for running Velocyto
   - `DeepCycle/` – Scripts to run the DeepCycle model
   - `CABYBARA/` – Capybara cell identity assignment scripts
@@ -17,7 +18,7 @@ Hematokytos ("blood cell") collects pipelines and utilities for gathering, integ
 - `figure1/` - Jupyter notebooks for analyzing the native reference atlas
 - `figure2/` - Jupyter notebooks for comparing reprogrammed cells to control fibroblasts
 - `figure3/` - Jupyter notebooks for RNA velocity and pseudotime analyses
-- `figure4/` - Jupyter notebooks for benchmarking reprogrammed cells
+- `figure4/` - Jupyter notebooks for bone marrow analysis and benchmarking reprogrammed cells
 - `figure5/` - Jupyter notebooks for isoform analysis
 - `resources/` – Gene sets, metadata, and supporting files
 - `results/` – Example output tables and other experimental source data
@@ -26,5 +27,5 @@ Hematokytos ("blood cell") collects pipelines and utilities for gathering, integ
 Each pipeline directory contains its own README with usage instructions.
 
 
-Earlier versions of this pipeline are available at [https://github.com/CooperStansbury/hematokytos](https://github.com/CooperStansbury/hematokytos)
+Earlier versions of this repository are available at [https://github.com/CooperStansbury/hematokytos](https://github.com/CooperStansbury/hematokytos)
 

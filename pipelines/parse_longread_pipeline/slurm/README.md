@@ -1,7 +1,7 @@
 # slurm/
 
-The Slurm batch scripts that do the heavy lifting for the long-read pipeline,
-in [`lr/`](lr/). They are *not* invoked by hand but submitted (with
+The Slurm batch scripts for the long-read pipeline,
+in [`lr/`](lr/). They are submitted (with
 dependencies, resources, and array ranges wired up) by
 [`bin/lr_submit.sh`](../bin/lr_submit.sh). See [`lr/README.md`](lr/README.md)
 for the four stages in detail.

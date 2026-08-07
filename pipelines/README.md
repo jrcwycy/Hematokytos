@@ -9,6 +9,6 @@ Workflow scripts used throughout the project. Each subdirectory contains configu
 - `velocyto_pipeline/` – Snakemake pipeline to produce Velocyto spliced/unspliced counts
 - `DeepCycle/` – Scripts to run the DeepCycle model
 - `CABYBARA/` – Capybara-based cell identity assignment scripts
-- `SUPPA/` - Scripts to run the SUPPA alternative splicing workflow
-- `reference_atlas/` - Scripts to compute DGEs across native reference atlas
+- `SUPPA/` – Scripts to run the SUPPA alternative splicing workflow
+- `reference_atlas/` – Scripts to compute DGEs across native reference atlas
 
