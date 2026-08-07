@@ -4,7 +4,7 @@ Notebooks for preparing `AnnData` objects used throughout the project. They take
 
 ## Notebooks
 - `integrate_scfib_ihsc.ipynb` – QC and integration for control and reprogrammed cells (Related to Figure 2)
-- `timeseries_reprogram.ipynb` – QC for time-series reprogrammed cells (Related to Figure 3)
+- `timeseries_reprogram.ipynb` – QC for time-series reprogrammed cells (Related to Figure 3, Figure S17)
 - `combine_atlas_data.ipynb` – Generate the integrated reference dataset (Related to Figure 4)
 - `atlas_embedding.ipynb` – Compute UMAP embedding for the integrated reference atlas (Related to Figure 4)
 - `get_Ng2024_rawcounts.R` – Retrieve raw counts from Ng 2024 dataset
