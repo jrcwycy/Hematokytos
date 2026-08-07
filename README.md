@@ -2,6 +2,11 @@
 
 Hematokytos ("blood cell") collects pipelines and utilities for gathering, integrating, and analysing single-cell data from direct reprogramming experiments alongside native hematopoietic cell types. Workflows cover preprocessing, quality control, RNA velocity, and alternative splicing analysis with a focus on hematopoietic stem and progenitor cells.
 
+
+![App screenshot](graphical_abstract.png)
+
+
+
 ## Repository Sturcture
 
 - `pipelines/` – Collection of workflow scripts
