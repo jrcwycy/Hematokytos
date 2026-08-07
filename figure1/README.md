@@ -1,4 +1,4 @@
-# Reference Analysis Notebooks
+# Reference Atlas Analysis Notebooks
 
 Workflows for constructing and analysing the reference atlas used throughout the project. They collect public hematopoietic datasets, harmonize annotations and generate figures.
 

@@ -1,4 +1,4 @@
-# Results 2.5 Notebooks
+# Isoform Diversity Notebooks
 
 Notebooks for analysis of isoform-level expression in control, reprogrammed, and bone marrow cells.
 

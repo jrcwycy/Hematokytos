@@ -1,4 +1,4 @@
-# Results 2.2 Notebooks
+# Control vs Reprogram Notebooks
 
 Notebooks for analysis of control (fibroblasts) and reprogrammed cells. h5ad file used for analysis was built in `Hematokytos/anndatas/integrate_scfib_ihsc.ipynb`.
 
