@@ -1,0 +1,34 @@
+# OS / editor cruft
+.DS_Store
+*.swp
+*~
+
+# Python build / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Install log (env build byproduct; install is reproducible via bin/lr_install_env.sh)
+/install_lr.log
+
+# Local overrides of the pipeline config (keep secrets / personal paths local)
+config/pipeline.config.local
+*.local
+
+# Anything accidentally produced inside the repo. Real run output lives on
+# scratch (WORK_DIR) and the shared results folder (RESULTS_DIR), never here.
+logs/
+*.out
+*.err
+work/
+scratch/
+results/
+manifest*.tsv
+chunks.txt
+
+# Parse-licensed material must never be committed here (see README "Licensing").
+ParseBiosciences-Pipeline*/
+ParseBiosciences-Pipeline*.zip
+LR_generate_pairs*.py
+*.xlsm

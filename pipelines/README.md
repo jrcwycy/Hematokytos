@@ -5,7 +5,7 @@ Workflow scripts used throughout the project. Each subdirectory contains configu
 - `fib_pipeline/` – Nextflow workflow for processing single-cell fibroblast data
 - `bm_pipeline/` – Nextflow workflow for bone marrow single-cell data
 - `hsc_pipeline/` – Nextflow workflow for direct reprogramming experiments
-- `parse_pipeline/` – 
+- `parse_longread_pipeline/` – Scripts to run the Parse `split-pipe` pipeline
 - `velocyto_pipeline/` – Snakemake pipeline to produce Velocyto spliced/unspliced counts
 - `DeepCycle/` – Scripts to run the DeepCycle model
 - `CABYBARA/` – Capybara-based cell identity assignment scripts
