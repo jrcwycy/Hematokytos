@@ -1,9 +1,6 @@
 # Hematokytos
 
-Hematokytos ("blood cell") collects pipelines and utilities for gathering, integrating, and analyzing single-cell transcriptomics data from direct reprogramming experiments alongside native hematopoietic cell types. Workflows cover preprocessing, quality control, RNA velocity, and alternative splicing analysis with a focus on hematopoietic stem and progenitor cells.
-
-
-*This repository contains the code and pipelines used in Transcriptional landscape of direct reprogramming toward the hematopoietic lineage (iScience 2026).*
+Hematokytos ("blood cell") collects pipelines and utilities for gathering, integrating, and analyzing single-cell transcriptomics data from direct reprogramming experiments alongside native and engineered hematopoietic cell types. Workflows and analysis notebooks cover data preprocessing, quality control, gene- and isoform-level expression analysis, pseudotime and RNA velocity, and atlas-level benchmarking of reprogrammed cells.
 
 
 ![App screenshot](graphical_abstract.png)
@@ -44,6 +41,7 @@ Cwycyshyn, J., Stansbury, C., Golts, S., Lee, H., Pickard, J., Meixner, W., Raja
 - `resources/` – Gene sets, metadata, and supporting files
 - `results/` – Example output tables and other experimental source data
 - `geo_submission/` - Jupyter notebook for preparing data and metadata for GEO submission
+
 
 Each pipeline directory contains its own README with usage instructions.
 
