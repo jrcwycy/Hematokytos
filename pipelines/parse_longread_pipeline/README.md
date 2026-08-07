@@ -28,7 +28,7 @@ split each long read into a synthetic barcode/transcript pair
 
 | Component | Role |
 |---|---|
-| `split-pipe` (Parse Biosciences, licensed — bring your own) | Barcode calling, postprocessing, DGE matrices, QC report |
+| `split-pipe` (Parse Biosciences, licensed — bring your own; v1.7.3 used here) | Barcode calling, postprocessing, DGE matrices, QC report |
 | `LR_generate_pairs` (Parse, ships with split-pipe — bring your own) | Splits each long read into a synthetic transcript read + barcode read |
 | STAR | Builds the reference index `split-pipe --mode pre/post` needs (STAR itself does not align in this workflow) |
 | minimap2 | Spliced long-read alignment (`-x splice`), replacing STAR for the mapping step |
