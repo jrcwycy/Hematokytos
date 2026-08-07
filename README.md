@@ -1,13 +1,29 @@
 # Hematokytos
 
-Hematokytos ("blood cell") collects pipelines and utilities for gathering, integrating, and analysing single-cell data from direct reprogramming experiments alongside native hematopoietic cell types. Workflows cover preprocessing, quality control, RNA velocity, and alternative splicing analysis with a focus on hematopoietic stem and progenitor cells.
+Hematokytos ("blood cell") collects pipelines and utilities for gathering, integrating, and analyzing single-cell transcriptomics data from direct reprogramming experiments alongside native hematopoietic cell types. Workflows cover preprocessing, quality control, RNA velocity, and alternative splicing analysis with a focus on hematopoietic stem and progenitor cells.
+
+
+*This repository contains the code and pipelines used in Transcriptional landscape of direct reprogramming toward the hematopoietic lineage (iScience 2026).*
 
 
 ![App screenshot](graphical_abstract.png)
 
+## Citation
+If you use this repository, please cite:
+
+Cwycyshyn, J., Stansbury, C., Golts, S., Lee, H., Pickard, J., Meixner, W., Rajapakse, I., and Muir, L. A. Transcriptional landscape of direct reprogramming toward the hematopoietic lineage. *iScience*. 2026.
+
+```bibtex
+@article{cwycyshyn2026hematokytos,
+  title={Transcriptional landscape of direct reprogramming toward the hematopoietic lineage},
+  author={Cwycyshyn, J. and Stansbury, C. and Golts, S. and Lee, H. and Pickard, J. and Meixner, W. and Rajapakse, I. and Muir, L. A.},
+  journal={iScience},
+  year={2026}
+}
+```
 
 
-## Repository Sturcture
+## Repository Structure
 
 - `pipelines/` – Collection of workflow scripts
   - `fib_pipeline/` – Nextflow pipeline for fibroblast samples
