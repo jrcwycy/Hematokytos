@@ -1,4 +1,4 @@
-# Long-Read Single-Cell RNA-seq Pipeline — Public Summary
+# Parse Long-Read Single-Cell RNA-seq Pipeline — Summary
 
 > **Note on availability:** This repository wraps Parse Biosciences' `split-pipe`
 > software (v1.7.3), which is licensed to Parse customers only and is **not**
@@ -20,8 +20,7 @@ barcode/UMI together, flanked by two known linker sequences, and needs a
 splice-aware long-read aligner rather than STAR. This pipeline reformats each
 long read into a synthetic short-read-style pair and drives `split-pipe`
 through it, substituting `minimap2` for STAR at the alignment step. It follows
-Parse's own published long-read procedure, adapted from `split-pipe` v1.5.1
-(as documented by Parse) to the newer v1.7.3 actually installed here.
+Parse's published long-read procedure, adapted from `split-pipe` v1.7.3.
 
 ## Input data (this run)
 
@@ -29,12 +28,11 @@ Parse's own published long-read procedure, adapted from `split-pipe` v1.5.1
 |---|---|
 | Platform | Oxford Nanopore (MinKNOW) |
 | Basecall model | `dna_r10.4.1_e8.2_400bps_hac` |
-| Flowcell | PBE00671 |
-| Sample | `F2HS24Parse_LIB1_GEX` — one Parse sublibrary |
+| Sample | Cells collected on days 0, 7, 14, and 21 of reprogramming — one Parse sublibrary |
 | Raw data | 543 MinKNOW fastq chunks, ~218 GB total |
 | Read length | ~200–4,600 bp |
-| Kit | Evercode **WT Mini** (12-well), determined empirically from the data (barcode-whitelist score 1.000 vs. 0.243 for standard WT) rather than assumed from labeling |
-| Chemistry | **v3**, confirmed empirically (~46% read retention, 58 bp barcode segment, both v3 linker sequences present) |
+| Kit | Evercode **WT Mini** (12-well) |
+| Chemistry | **v3** |
 | Reference genome | Human GRCh38, 10x Genomics `refdata-gex-GRCh38-2024-A` bundle (FASTA + GTF) |
 
 ## Software stack and versions
@@ -60,7 +58,7 @@ The workflow is a four-stage Slurm job DAG:
 
 ```
    refs (1 job)                       genpairs[0..542]  (job ARRAY)
-   ┌──────────────────┐               ┌───────────────────────────┐
+   ┌───────────────────┐               ┌───────────────────────────┐
    │ split-pipe mkref  │               │ one task per fastq chunk  │
    │ minimap2 index    │  concurrent   │ LR_generate_pairs (edlib) │
    │ GTF -> junction BED│  (no dep)    │ -> synthetic R1 + R2      │
@@ -114,17 +112,13 @@ restarting from scratch.
 * Supporting CSVs (cluster assignments, marker genes, per-well counts) and
   run provenance (environment info, the exact chunk manifest processed).
 
-For this run, all wells were pooled into a single "all-sample" output because
-no real per-sample well-assignment table was available (only a placeholder
-example template) — a real sample table can be supplied later to re-run just
-the final postprocessing step and split the output by biological sample.
 
-## What's *not* included publicly
+
+## What's *not* included
 
 * `split-pipe` v1.7.3 itself (Parse Biosciences proprietary software).
 * `LR_generate_pairs_1.0.0.py` (ships attached to Parse's long-read
   documentation for customers).
-* Any raw sequencing data or cluster-specific paths/credentials.
 
 Everything else described above — the Slurm orchestration, the reference-prep
 and read-splitting logic around `split-pipe`, the minimap2 substitution for
